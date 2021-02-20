@@ -544,13 +544,13 @@ body {
   display: none;
 }
 
-@media (min-width: 321px) {
+@media (min-width: 401px) {
   .desktop_hide {
     display: none;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .mobile_hide {
     display: none;
   }
