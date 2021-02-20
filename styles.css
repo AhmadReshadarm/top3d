@@ -543,7 +543,7 @@ body {
 .dontShow {
   display: none;
 }
-
+/* this is just for experment it will be back to 320 and 321 size */
 @media (min-width: 401px) {
   .desktop_hide {
     display: none;
