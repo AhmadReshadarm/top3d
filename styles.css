@@ -148,7 +148,7 @@ body {
   gap: 4px;
 }
 
-.logo_desc li:last-child p {
+.logo_desc li:last-child span {
   color: #f00017;
 }
 
@@ -208,7 +208,6 @@ body {
 .login_btn svg {
   width: 16px;
   height: 16px;
-  fill: #cc0022;
   transition: all 200ms;
 }
 
@@ -251,7 +250,6 @@ body {
 .cart svg {
   width: 18px;
   height: 18px;
-  fill: #fff;
 }
 
 .cart:hover svg {
@@ -323,7 +321,6 @@ body {
   width: 10px;
   height: 10px;
   margin-top: 3px;
-  fill: #9e9e9e;
 }
 
 .section_2 {
@@ -446,7 +443,6 @@ body {
 
 .active {
   color: #cc0022 !important;
-  fill: #cc0022;
 }
 
 .links_wrapper li svg {
@@ -513,7 +509,6 @@ body {
 .next_prev_btn svg {
   width: 20px;
   height: 20px;
-  fill: #4d4d4d;
 }
 .next_prev_btn svg:first-of-type {
   transform: rotate(180deg);
@@ -688,7 +683,6 @@ body {
   .login_btn_mobile svg {
     width: 25px;
     height: 25px;
-    fill: #cc0022;
     transition: all 200ms;
   }
 
@@ -746,11 +740,13 @@ body {
   }
 
   .active_page {
-    fill: #cc0022;
+    filter: invert(9%) sepia(100%) saturate(4752%) hue-rotate(340deg)
+      brightness(97%) contrast(102%);
   }
 
   .not_active_page {
-    fill: #4d4d4d;
+    filter: invert(27%) sepia(5%) saturate(18%) hue-rotate(5deg) brightness(94%)
+      contrast(81%);
   }
 
   .menu_mobile_wrapper {
