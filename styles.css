@@ -21,6 +21,10 @@ button:focus {
   border: none;
 }
 
+input:focus {
+  outline: none;
+}
+
 .displayNone {
   display: none !important;
 }
@@ -543,14 +547,14 @@ body {
 .dontShow {
   display: none;
 }
-/* this is just for experment it will be back to 320 and 321 size */
-@media (min-width: 401px) {
+
+@media (min-width: 321px) {
   .desktop_hide {
     display: none;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 320px) {
   .mobile_hide {
     display: none;
   }
